@@ -93,6 +93,86 @@
 .seek-button:hover {
     background-color: #333;
 }
+#section2 {
+    background-color: #1A1E36; /* Dark navy background */
+    color: white;
+    padding: 20px;
+    border-radius: 30px; /* Rounded corners */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Align content vertically */
+}
+.part2 {
+    display: flex;
+    align-items: center;
+    gap: 15px; /* Space between elements */
+    flex-wrap: nowrap; /* Prevent wrapping */
+    width: 100%;
+    justify-content: space-between;
+}
+.part2 img {
+    height: 40px; /* Adjust image size */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+}
+
+/* Text Styling */
+.part2 h4 {
+    font-size: 16px;
+    margin: 0;
+    flex-grow: 1; /* Allow text to take available space */
+    text-align: left;
+    line-height: 1.5;
+}
+#Register {
+    background-color: white; /* White button */
+    color: #1A1E36; /* Navy text for contrast */
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    flex-shrink: 0; /* Prevent the button from shrinking */
+}
+#Register:hover {
+    background-color: #e0e0e0; /* Light gray hover effect */
+}
+#section3 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.part3a {
+    display: flex;
+    justify-content: center;
+    gap: 20px;  /* Space between the images */
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.part3 {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+    max-width: 250px; /* Adjust width as needed */
+}
+
+.part3 img {
+    width: 100%;
+    height: auto;
+    border-bottom: 2px solid #ddd;
+}
+
+.part3 h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+
 
 
 
@@ -269,3 +349,50 @@
     color: #4a4a4a; /* Light gray for the description */
     line-height: 1.4em; /* Improve readability */
 }
+#section6 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.part6 {
+    max-width: 50%;  /* Each image takes half the space */
+    text-align: left;
+    box-sizing: border-box;
+}
+
+.part6 img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; 
+    display: block;
+}
+
+.part6 h3 {
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 0 5px;
+    color: #333;
+}
+
+.part6 h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: #000;
+}
+.part6 img + h3 {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .part6 {
+        max-width: 100%; 
+    }
+}
+
