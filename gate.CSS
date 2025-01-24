@@ -24,7 +24,7 @@
 }
 
 .part1a img {
-    height: 40px; /* Adjust logo size */
+    height: 40px; 
 }
 .part1a h3 {
     margin: 0 15px;
@@ -89,56 +89,52 @@
     margin-top: 20px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
 }
-
-.seek-button:hover {
-    background-color: #333;
-}
 #section2 {
-    background-color: #1A1E36; /* Dark navy background */
+    background-color: #1A1E36; 
     color: white;
     padding: 20px;
-    border-radius: 30px; /* Rounded corners */
-    max-width: 1200px; /* Set a maximum width */
-    margin: 0 auto; /* Center horizontally */
+    border-radius: 30px;
+    max-width: 1200px; 
+    margin: 0 auto; 
     display: flex;
-    justify-content: center; /* Center content horizontally */
-    align-items: center; /* Align content vertically */
+    justify-content: center; 
+    align-items: center; 
 }
 .part2 {
     display: flex;
     align-items: center;
-    gap: 15px; /* Space between elements */
-    flex-wrap: nowrap; /* Prevent wrapping */
+    gap: 15px; 
+    flex-wrap: nowrap; 
     width: 100%;
     justify-content: space-between;
 }
 .part2 img {
-    height: 40px; /* Adjust image size */
-    flex-shrink: 0; /* Prevent the image from shrinking */
+    height: 40px; 
+    flex-shrink: 0; 
 }
 
-/* Text Styling */
+
 .part2 h4 {
     font-size: 16px;
     margin: 0;
-    flex-grow: 1; /* Allow text to take available space */
+    flex-grow: 1; 
     text-align: left;
     line-height: 1.5;
 }
 #Register {
-    background-color: white; /* White button */
-    color: #1A1E36; /* Navy text for contrast */
+    background-color: white; 
+    color: #1A1E36; 
     font-size: 14px;
     font-weight: bold;
     padding: 10px 20px;
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Subtle shadow */
-    flex-shrink: 0; /* Prevent the button from shrinking */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); 
+    flex-shrink: 0; 
 }
 #Register:hover {
-    background-color: #e0e0e0; /* Light gray hover effect */
+    background-color: #e0e0e0; 
 }
 #section3 {
     text-align: center;
@@ -148,8 +144,8 @@
 .part3a {
     display: flex;
     justify-content: center;
-    gap: 20px;  /* Space between the images */
-    flex-wrap: wrap; /* Ensures responsiveness */
+    gap: 20px;  
+    flex-wrap: wrap; 
 }
 
 .part3 {
@@ -158,7 +154,7 @@
     overflow: hidden;
     text-align: center;
     background-color: #fff;
-    max-width: 250px; /* Adjust width as needed */
+    max-width: 250px; 
 }
 
 .part3 img {
@@ -178,17 +174,20 @@
 
 #section8 {
     display: flex;
-    flex-direction: column; /* Stack the text and images vertically */
-    gap: 2em; /* Space between text and grid */
-    padding: 2em;
+    align-items: center;  
+    justify-content: space-between;  
+    font-family: Arial, sans-serif;
     background-color: #fff;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 90%;
+    margin: 40px auto;
 }
 .part8a {
-    text-align: left; /* Align the text to the left */
-    max-width: 800px; /* Limit the width of the text block */
-    margin: 0 auto; /* Center the text content */
+    /* text-align: left;  */
+    max-width: 40%;
+    /* margin: 0 auto;  */
 }
 .part8a h1 {
     font-family: 'Arial', sans-serif;
@@ -197,37 +196,52 @@
     color: #1e1e1e;
 }
 .part8a p {
-    font-family: 'Arial', sans-serif;
-    font-size: 1em;
-    color: #4a4a4a;
-    line-height: 1.6em;
+    /* font-family: 'Arial', sans-serif; */
+    font-size: 32px;
+    color: #111;
+    margin-bottom: 15px;
+    /* line-height: 1.6em; */
 }
 .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
-    gap: 1.5em; /* Space between cards */
+    display: flex;
+    gap: 15px;  
+    flex-wrap: nowrap; 
+    overflow-x: auto;
 }
 
 .part8 {
-    text-align: center;
-    background-color: #fff;
+  
+    /* background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden; */
+    padding: 1em 0; */
+    text-align: center;
+    border-radius: 15px;
     overflow: hidden;
-    padding: 1em 0;
+    flex: 0 0 auto;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
 }
 .part8 img {
     width: 100%;
-    height: auto; /* Maintain aspect ratio */
-    border-bottom: 2px solid #ddd; /* Subtle divider */
+    height: auto;
+    border-radius: 15px;
 }
 
 .part8 h4 {
-    font-family: 'Arial', sans-serif;
-    font-size: 1em;
-    margin: 0.8em 0;
-    color: #1e1e1e;
+    font-size: 14px;
+    color: #fff;
+    margin-top: -35px;
+    position: relative;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.4);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
+
 #section11 h1{
     color:black;
     margin-left: 20px;
@@ -279,7 +293,7 @@
     background-image: url('https://forever.travel-assets.com/flex/flexmanager/mediaasset/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg');
     background-size: cover;
     background-position: center;
-    height: 50em; /* Adjust the height to fit your design */
+    height: 50em; 
     display: flex;
     align-items: center;
     justify-content: center;
@@ -287,10 +301,10 @@
     padding: 20px;
 }
 .part10{
-    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    background: rgba(255, 255, 255, 0.9); 
     border-radius: 12px;
     padding: 2em;
-    max-width: 500px; /* Control the width of the box */
+    max-width: 500px; 
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
@@ -307,7 +321,7 @@
     color: #4a4a4a;
 }
 #me{
-    background-color: #1e1e1e; /* Dark background for the button */
+    background-color: #1e1e1e; 
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -317,37 +331,34 @@
     font-size: 1em;
     transition: background-color 0.3s ease;
 }
-#me:hover {
-    background-color: #333; /* Slightly lighter on hover */
-}
 #section9 {
     display: flex;
-    justify-content: space-between; /* Evenly distribute the features */
-    align-items: flex-start; /* Align items to the top */
+    justify-content: space-between;
+    align-items: flex-start; 
     padding: 2em;
-    background-color: #fff; /* White background */
-    gap: 2em; /* Spacing between the features */
+    background-color: #fff; 
+    gap: 2em; 
 }
 .part9{
-    text-align: center; /* Center align the text and image */
-    max-width: 200px; /* Limit the width of each feature */
+    text-align: center; 
+    max-width: 200px; 
     font-family: 'Arial', sans-serif;
 }
 .part9 img{
-    width: 50px; /* Adjust the size of the icons */
-    height: auto; /* Maintain aspect ratio */
-    margin-bottom: 1em; /* Space between icon and text */
+    width: 50px; 
+    height: auto; 
+    margin-bottom: 1em; 
 }
 .part9 h4 {
     font-size: 1.2em;
-    color: #1e1e1e; /* Dark gray for the heading */
+    color: #1e1e1e; 
     margin-bottom: 0.5em;
 }
 
 .part9 p {
     font-size: 0.9em;
-    color: #4a4a4a; /* Light gray for the description */
-    line-height: 1.4em; /* Improve readability */
+    color: #4a4a4a; 
+    line-height: 1.4em; 
 }
 #section6 {
     display: flex;
@@ -360,7 +371,7 @@
 }
 
 .part6 {
-    max-width: 50%;  /* Each image takes half the space */
+    max-width: 50%;  
     text-align: left;
     box-sizing: border-box;
 }
@@ -390,9 +401,4 @@
     margin-top: 0;
 }
 
-@media (max-width: 768px) {
-    .part6 {
-        max-width: 100%; 
-    }
-}
 
