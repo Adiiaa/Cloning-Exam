@@ -552,8 +552,7 @@
 .part7 img {
     width: 100%;
     border-radius: 15px;
-    height: auto;
-    object-fit: cover;
+    height: 300px;
 }
 .part7 h2 {
     background: #138a36;
@@ -582,15 +581,6 @@
     font-size: 14px;
     color: #777;
     margin-bottom: 10px;
-}
-.part7 h1:last-of-type {
-    font-size: 20px;
-    color: #000;
-    margin-bottom: 5px;
-}
-.part7 h3:last-of-type {
-    font-size: 14px;
-    color: #555;
 }
 hr{
     width: 1200px;
