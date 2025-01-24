@@ -264,7 +264,7 @@
 
 #section8 {
     display: flex;
-    align-items: center;  
+    align-items: flex-start;  
     justify-content: space-between;  
     font-family: Arial, sans-serif;
     background-color: #fff;
@@ -274,63 +274,63 @@
     max-width: 90%;
     margin: 40px auto;
 }
+
 .part8a {
-    /* text-align: left;  */
     max-width: 40%;
-    /* margin: 0 auto;  */
 }
+
 .part8a h1 {
     font-family: 'Arial', sans-serif;
     font-size: 1.8em;
     margin-bottom: 1em;
     color: #1e1e1e;
 }
+
 .part8a p {
-    /* font-family: 'Arial', sans-serif; */
-    font-size: 32px;
+    font-size: 1.2em;
     color: #111;
     margin-bottom: 15px;
-    /* line-height: 1.6em; */
 }
-.container {
+
+#container {
     display: flex;
-    gap: 10px;  
-    flex-direction: row; 
-    /* overflow-x: auto; */
+    gap: 20px; 
+    flex-wrap: wrap; 
+    flex: 1;
+    justify-content: flex-start; 
+    align-items: flex-start;
 }
 
 .part8 {
-  
-    /* background-color: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden; */
-    /* padding: 1em 0;  */
-    /* text-align: center; */
-    border-radius: 15px;
+    position: relative; 
+    flex: 0 0 auto; 
+    width: 150px; 
+    border-radius: 15px; 
     overflow: hidden;
-    flex: 0 0 auto;
-    width: 150px;
-    display: flex;
-    flex-direction: row;
 }
+
 .part8 img {
     width: 100%;
     height: auto;
-    border-radius: 15px;
+    object-fit: cover; 
+    display: block; 
 }
 
 .part8 h4 {
+    position: absolute; 
+    bottom: 0; 
+    left: 0;
+    width: 100%; 
+    margin: 0;
+    background: rgba(0, 0, 0, 0.6); 
+    color: #fff; 
     font-size: 14px;
-    color: #fff;
-    margin-top: -35px;
-    position: relative;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    background: rgba(0, 0, 0, 0.4);
-    border-bottom-left-radius: 15px;
+    text-align: center; 
+    padding: 5px; 
+    border-bottom-left-radius: 15px; 
     border-bottom-right-radius: 15px;
 }
+
 
 #section11 h1{
     color:black;
