@@ -358,7 +358,9 @@
     border-bottom-left-radius: 15px; 
     border-bottom-right-radius: 15px;
 }
-
+#section11{
+    margin-left: 118px;
+}
 
 #section11 h1{
     color:black;
@@ -384,7 +386,7 @@
 }
 #section12 h1{
     color: blue;
-    margin-left: 2px;
+    margin-left: 118px;
 }
 #section12 h4{
     color: blue;
@@ -411,12 +413,14 @@
     background-image: url('https://forever.travel-assets.com/flex/flexmanager/mediaasset/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg');
     background-size: cover;
     background-position: center;
-    height: 50em; 
+    height: 30em; 
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     padding: 20px;
+    margin-left: 120px;
+    border-radius: 25px;
 }
 .part10{
     background: rgba(255, 255, 255, 0.9); 
