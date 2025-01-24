@@ -204,9 +204,9 @@
 }
 .container {
     display: flex;
-    gap: 15px;  
-    flex-wrap: nowrap; 
-    overflow-x: auto;
+    gap: 10px;  
+    flex-direction: row; 
+    /* overflow-x: auto; */
 }
 
 .part8 {
@@ -215,8 +215,8 @@
     border-radius: 8px;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     overflow: hidden; */
-    padding: 1em 0; */
-    text-align: center;
+    /* padding: 1em 0;  */
+    /* text-align: center; */
     border-radius: 15px;
     overflow: hidden;
     flex: 0 0 auto;
@@ -400,5 +400,68 @@
 .part6 img + h3 {
     margin-top: 0;
 }
+.part7{
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: left;
+    max-width: 270px; 
+    flex: 0 0 auto;
+    /* display: flex; */
+}
+.part7 img {
+    width: 100%;
+    border-radius: 15px;
+    height: auto;
+    object-fit: cover;
+    flex-direction: row;
+}
+.part7 h2 {
+    background: #138a36;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 12px;
+    display: inline-block;
+    position: relative;
+    top: -15px;
+    left: 10px;
+}
+.part7 h3 {
+    font-size: 14px;
+    color: #555;
+    font-weight: normal;
+    margin: 5px 0;
+}
+.part7 h1 {
+    font-size: 18px;
+    color: #111;
+    margin: 5px 0;
+    font-weight: bold;
+}
+.part7 p {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+.part7 h1:last-of-type {
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.part7 h3:last-of-type {
+    font-size: 14px;
+    color: #555;
+}
+@media (max-width: 768px) {
+    #section7 {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
+    .part7 {
+        max-width: 100%;
+    }
+}
 
