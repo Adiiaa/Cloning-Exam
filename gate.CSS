@@ -67,3 +67,77 @@ h1{
     margin-left: 2px;
     margin-right: 30px;
 }
+#section10{
+    background-image: url('https://forever.travel-assets.com/flex/flexmanager/mediaasset/732141-0_2-VRBO_HOSTS_LA_SAUNA_NEBELING_0101.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50em; /* Adjust the height to fit your design */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+}
+.part10{
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 12px;
+    padding: 2em;
+    max-width: 500px; /* Control the width of the box */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+#section10 h1{
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+    color: #1e1e1e;
+}
+#section10 p{
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    margin-bottom: 20px;
+    color: #4a4a4a;
+}
+#me{
+    background-color: #1e1e1e; /* Dark background for the button */
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 0.8em 1.5em;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+#me:hover {
+    background-color: #333; /* Slightly lighter on hover */
+}
+#section9 {
+    display: flex;
+    justify-content: space-between; /* Evenly distribute the features */
+    align-items: flex-start; /* Align items to the top */
+    padding: 2em;
+    background-color: #fff; /* White background */
+    gap: 2em; /* Spacing between the features */
+}
+.part9{
+    text-align: center; /* Center align the text and image */
+    max-width: 200px; /* Limit the width of each feature */
+    font-family: 'Arial', sans-serif;
+}
+.part9 img{
+    width: 50px; /* Adjust the size of the icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 1em; /* Space between icon and text */
+}
+.part9 h4 {
+    font-size: 1.2em;
+    color: #1e1e1e; /* Dark gray for the heading */
+    margin-bottom: 0.5em;
+}
+
+.part9 p {
+    font-size: 0.9em;
+    color: #4a4a4a; /* Light gray for the description */
+    line-height: 1.4em; /* Improve readability */
+}
