@@ -1,3 +1,22 @@
 h1{
     color: brown;
 }
+#part1{
+    background-image: url('https://keplercollege.ac.rw/wp-content/uploads/2024/02/52483645789_a3992a4046_o-scaled.jpg');
+    height: 60em;
+    background-repeat: none;
+    display: flex;
+    gap: 40px;
+}
+.paragraph{
+    width: 30px;
+    height: 6em;
+    background-color: rgba(121, 204, 82, 0.719);
+    color: white;
+}
+.paragrap{
+    width: 30px;
+    height: 6em;
+    background-color: rgb(75, 205, 214);
+    color: white;
+}
